@@ -79,7 +79,7 @@ $body = json_encode([
 
 // ── Call Gemini API via cURL ──
 
-$model = "gemini-2.5-flash";
+$model = "gemini-3.6-flash";
 $url   = "https://generativelanguage.googleapis.com/v1/models/{$model}:generateContent?key=" . $apiKey;
 
 $ch = curl_init($url);
@@ -122,4 +122,4 @@ if ($httpStatus !== 200 || !isset($decoded["candidates"][0]["content"]["parts"][
 $text = $decoded["candidates"][0]["content"]["parts"][0]["text"];
 
 http_response_code(200);
-echo json_encode(["success" => true, "text" => $text]);
+echo json_encode(["success" => true, "text" => $text]); 

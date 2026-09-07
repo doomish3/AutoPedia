@@ -7,4 +7,4 @@
  *
  * IMPORTANT: Never commit this file to a public repository.
  */
-define("GEMINI_KEY", "AIzaSyClDqFAelEx-lI06vgDyZogqR9FdtRKT_I");
+define("GEMINI_KEY", "AQ.Ab8RN6IUf_U3aHzc3VpgThWBN8O8jYoN126tTh4YvcQd7im1eg");
